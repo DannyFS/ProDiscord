@@ -35,43 +35,7 @@ Installing
 
 **Python 3.8 or higher is required**
 
-To install the library without full voice support, you can just run the following command:
-
-.. code:: sh
-
-    # Linux/macOS
-    python3 -m pip install -U py-cord
-
-    # Windows
-    py -3 -m pip install -U py-cord
-
 Otherwise to get voice support you should run the following command:
-
-.. code:: sh
-
-    # Linux/macOS
-    python3 -m pip install -U "py-cord[voice]"
-
-    # Windows
-    py -3 -m pip install -U py-cord[voice]
-
-To install additional packages for speedup, run the following command:
-
-.. code:: sh
-
-    # Linux/macOS
-    python3 -m pip install -U "py-cord[speed]"
-    # Windows
-    py -3 -m pip install -U py-cord[speed]
-
-
-To install the development version, do the following:
-
-.. code:: sh
-
-    $ git clone https://github.com/Pycord-Development/pycord
-    $ cd pycord
-    $ python3 -m pip install -U .[voice]
 
 
 Optional Packages
